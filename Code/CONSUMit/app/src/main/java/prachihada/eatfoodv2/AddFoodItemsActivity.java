@@ -263,7 +263,8 @@ public class AddFoodItemsActivity extends AppCompatActivity {
           if(item.getQuantity()>0 && !item.getName().equals("")) {
               if(entry.getKey().equals("Other")){
                   if(item.getExpDate() == null) {
-
+                      EditText editTextDate = (EditText) findViewById(R.id.editText_Date);
+                      editTextDate.setError("Enter date");
                   }
                   else if(DateUtil.tryParse(item.getExpDate(),"yyyy-MM-dd") == null) {
                       EditText editTextDate = (EditText) findViewById(R.id.editText_Date);
@@ -310,7 +311,7 @@ public class AddFoodItemsActivity extends AppCompatActivity {
         finalList.put("Beans",new Item("Spinach",0,"lb"));
         finalList.put("Garlic",new Item("Garlic",0,"no"));
         finalList.put("Brocolli",new Item("Brocolli",0,"no"));
-        finalList.put("Other" ,new Item("Other",1,"no"));
+        finalList.put("Other" ,new Item("",1,"no"));
 
     }
 
