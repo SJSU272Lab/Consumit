@@ -261,18 +261,26 @@ public class AddFoodItemsActivity extends AppCompatActivity {
             Item item = entry.getValue();
 //            System.out.println(entry.getKey()+" : "+item.getWeight_type()+ " : "+item.getQuantity());
           if(item.getQuantity()>0 && !item.getName().equals("")) {
-              if(entry.getKey().equals("Other") && DateUtil.tryParse(item.getExpDate(),"yyyy-MM-dd") == null){
-                  EditText editTextDate = (EditText)findViewById(R.id.editText_Date);
-                  editTextDate.setError("Invalid date. Format yyyy-mm-dd");
-                  return false;
+              if(entry.getKey().equals("Other")){
+                  if(item.getExpDate() == null) {
+
+                  }
+                  else if(DateUtil.tryParse(item.getExpDate(),"yyyy-MM-dd") == null) {
+                      EditText editTextDate = (EditText) findViewById(R.id.editText_Date);
+                      editTextDate.setError("Invalid date. Format yyyy-mm-dd");
+                      return false;
+                  }
+                  else{
+                      dataHelper.insertData(entry.getKey(),item);
+                  }
               }
               else {
                   dataHelper.insertData(entry.getKey(),item);
-                  return true;
+              }
               }
           }
-        }
-        return false;
+
+        return true;
     }
 
 
