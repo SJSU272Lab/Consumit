@@ -1,5 +1,28 @@
 package prachihada.eatfoodv2;
 
+
+/*
+
+ *  Using Google’s Vision API for Text Recognition:
+ *      Link: https://github.com/googlesamples/android-vision
+ *      Licence: http://www.apache.org/licenses/LICENSE-2.0
+ *  Using MPAndroidChart for the pie chart shown
+ *      Link: https://github.com/PhilJay/MPAndroidChart
+ *      Licence: http://www.apache.org/licenses/LICENSE-2.0
+
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -115,6 +138,11 @@ public class MainActivity extends AppCompatActivity {
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this, ALARM_REQ_ID, notificationIntent, PendingIntent.FLAG_CANCEL_CURRENT);
 //        System.out.println("Cancelled alarm");
         alarmMgr.cancel(pendingIntent);
+    }
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
     }
 
 }
