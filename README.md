@@ -68,6 +68,12 @@ Mayor
 ![alt tag](https://github.com/SJSU272Lab/Fall16-Team9/blob/master/Images/Curb_Inspector_Flow_diag.png)
 
 
+## Team Members
+
+| [![Azad Mahmood](https://avatars0.githubusercontent.com/u/21575661?v=3&s=400)<br /><sub>Azad Mahmood</sub>](https://github.com/azhadm)<br /> | [![Prachi Hada](https://avatars2.githubusercontent.com/u/21698550?v=3&s=400)<br /><sub>Prachi Hada</sub>](https://github.com/PrachiHada)<br /> | [![Srinivas Annapantula](https://avatars0.githubusercontent.com/u/14848240?v=3&s=400)<br /><sub>Srinivas Annapantula</sub>](https://github.com/shettyaditi)<br />| [![Varsha Kankariya](https://avatars3.githubusercontent.com/u/21966367?v=3&s=400)<br /><sub>Varsha Kankariya</sub>](https://github.com/varsha-kankariya)<br />|
+| :---: | :---: | :---: | :---: |
+
+
 
 
 
