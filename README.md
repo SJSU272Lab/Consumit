@@ -40,34 +40,6 @@ Working professionals
 ###Flow Diagram
 ![alt tag](https://github.com/SJSU272Lab/Fall16-Team9/blob/master/Images/Eat_Or_Share_Flow_Diag.png)
 
-##Curb Inspector 
-
-###Problem:
-
-Currently, in U.S., free curbside parking is available, in many places, for a limited amount of time. There are officers appointed to check that no one exceeds the time limit set. For that, they mark the tires with a particular color and take rounds of the streets to check if someone has still parked their vehicle there and exceeded the time limit. In this case, lot of manpower is wasted which can be put to good use elsewhere.
-
-###Solution:
-
-To solve this issue, we propose a system that will automate most of this process reducing the overall expenses. We propose to deploy sensors on the designated curbs which will track the duration for which the vehicles are parked. If they exceed the time limit, a notification will be sent to the officer nearby with the location of the vehicle and then the officer can take action further.
-
-###User Stories:
-
-####User Story 1
-As a policer officer, I want to track the vehicles that exceed the time allotted so that I can carry out further process without monitoring the vehicles continuously
-####User Story 2
-As the mayor of the city, I want to reduce the manpower allocated for monitoring vehicles so that I can reduce the cost and reutilize the manpower in making the city secure.
-
-###Personas:
-
-####Persona 1
-Police Officer
-####Persona 2
-Mayor
-
-###Flow Diagram
-![alt tag](https://github.com/SJSU272Lab/Fall16-Team9/blob/master/Images/Curb_Inspector_Flow_diag.png)
-
-
 ## Team Members
 
 | [![Azad Mahmood](https://avatars0.githubusercontent.com/u/21575661?v=3&s=400)<br /><sub>Azad Mahmood</sub>](https://github.com/azhadm)<br /> | [![Prachi Hada](https://avatars2.githubusercontent.com/u/21698550?v=3&s=400)<br /><sub>Prachi Hada</sub>](https://github.com/PrachiHada)<br /> | [![Srinivas Annapantula](https://avatars0.githubusercontent.com/u/14848240?v=3&s=400)<br /><sub>Srinivas Annapantula</sub>](https://github.com/shettyaditi)<br />| [![Varsha Kankariya](https://avatars3.githubusercontent.com/u/21966367?v=3&s=400)<br /><sub>Varsha Kankariya</sub>](https://github.com/varsha-kankariya)<br />|
